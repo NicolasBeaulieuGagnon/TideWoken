@@ -1,5 +1,13 @@
+import Home from "./components/home/Home";
+import { GlobalStyles } from "./StyledComponents/GlobalStyles";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Home />
+      <GlobalStyles />
+    </>
+  );
 };
 
 export default App;
